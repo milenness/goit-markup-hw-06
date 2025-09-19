@@ -164,13 +164,23 @@ img {
     background-color: #404BBF;
 }
 
-.section-benefits {
+.section-list-benefits,
+.section-list-team {
     margin-bottom: 120px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     width: (100 - 52)/4;
-    gap: 8px;
+    gap: 24px;
+}
+
+.section-list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: (100 - 120)/6;
+    gap: 24px;
+    margin-bottom: 120px;
 }
 
 .section-team {
@@ -187,6 +197,8 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .section-list {
