@@ -34,7 +34,7 @@ ul {
 }
 
 .logo-menu {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .menu-nav {
@@ -45,14 +45,17 @@ ul {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin-left: 156px;
-    margin-right: 156px;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.container .nav-menu {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -69,7 +72,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .logo-accent {
@@ -90,7 +93,6 @@ img {
 }
 
 .contacts-list {
-    margin-left: 332px;
     gap: 40px;
     padding-bottom: 24px;
     padding-top: 24px;
@@ -107,6 +109,7 @@ img {
 
 .menu-list {
     gap: 40px;
+    margin-right: 332px;
 }
 
 .menu {
@@ -116,8 +119,6 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu:hover {
@@ -130,10 +131,10 @@ img {
 
 .title-section {
     background-color: #2e2f42;
-    margin-bottom: 120px;
     width: 1440px;
     height: 600px;
-
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .title {
@@ -143,10 +144,10 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    max-width: 496px;
-    padding-top: 188px;
-    margin-left: 472px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
 }
 
 .button {
@@ -162,8 +163,9 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
-    margin-left: 636px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button:hover {
@@ -174,18 +176,20 @@ img {
     background-color: #404BBF;
 }
 
-.section-title {
-    padding-top: 188px;
-    padding-bottom: 188px;
+.section-benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-benefits-li {
+    flex-basis: calc((100% - 72px) / 4));
 }
 
 .section-list-benefits,
 .section-list-team {
-    margin-bottom: 120px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    width: (100 - 52)/4;
     gap: 24px;
 }
 
