@@ -120,14 +120,23 @@ img {
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
 }
 
-.menu:hover {
-    color: #404bbf;
-}
-
+.menu:hover,
 .menu:focus {
     color: #404bbf;
+}
+
+.menu:active::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+    position: absolute;
+    bottom: -20px;
 }
 
 /* Title section */
@@ -136,6 +145,13 @@ img {
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .title {
@@ -207,6 +223,22 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 24px;
+}
+
+.icon-wrapper {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.benefits-icon {
+    fill: none;
 }
 
 /* Section 3 */
