@@ -279,8 +279,6 @@ img {
 .cont-team {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .section-item {
@@ -305,6 +303,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .social-links {
