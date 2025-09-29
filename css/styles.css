@@ -132,7 +132,11 @@ img {
     color: #404bbf;
 }
 
-.menu::after {
+.menu.active {
+    color: #404bbf;
+}
+
+.menu:active::after {
     display: block;
     content: "";
     width: 100%;
