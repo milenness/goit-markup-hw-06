@@ -42,6 +42,9 @@ img {
 
 .logo-menu {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .menu-nav {
@@ -225,6 +228,7 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 24px;
+
 }
 
 .icon-wrapper {
@@ -240,7 +244,7 @@ img {
 }
 
 .benefits-icon {
-    fill: none;
+    fill: #f4f4fd;
 }
 
 /* Section 3 */
@@ -301,7 +305,6 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .social-links {
@@ -310,6 +313,7 @@ img {
     gap: 24px;
     flex-shrink: 0;
     align-self: flex-end;
+    justify-content: center;
 }
 
 .social-link {
@@ -331,7 +335,7 @@ img {
 }
 
 .social-icon {
-    fill: none;
+    fill: #f4f4fd;
 }
 
 /* Section 4 */
@@ -422,8 +426,7 @@ img {
 
 .footer-cotainer {
     display: flex;
-    flex-direction: row;
-    gap: 120px;
+    align-items: baseline;
 }
 
 .footer-section {
@@ -458,12 +461,16 @@ img {
     width: 264px;
 }
 
+.logo-descr-conteiner {
+    margin-right: 120px;
+}
+
 .social-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 
@@ -478,6 +485,7 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links-footer .social-link:hover {
+.social-links-footer .social-link:hover,
+.social-link:focus {
     background-color: #31D0AA;
 }
