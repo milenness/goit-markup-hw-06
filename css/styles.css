@@ -492,3 +492,107 @@ img {
 .social-links-footer .social-link:focus {
     background-color: #31D0AA;
 }
+
+.social-footer {
+    margin-right: 80px;
+}
+
+.subscribe-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-end;
+}
+
+.subscribe-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-input {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.subscribe-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.subscribe-btn {
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    cursor: pointer;
+
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Form */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(46, 47, 66, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    width: 408px;
+    height: 584px;
+    overflow-y: auto;
+    padding: 24px;
+}
+
+.close-btn {
+    border-radius: 100%;
+    background-color: #E7E9FC;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+
+.close-icon {
+    fill: #2E2F42;
+}
