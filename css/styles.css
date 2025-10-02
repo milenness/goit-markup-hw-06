@@ -606,7 +606,7 @@ img {
     justify-content: center;
     border-radius: 50%;
     top: 24px;
-    left: 24px;
+    right: 24px;
     background-color: #E7E9FC;
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.1);
