@@ -497,16 +497,10 @@ img {
     margin-right: 80px;
 }
 
-.subscribe-container {
+.subscribe-form {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    align-items: flex-end;
-}
-
-.subscribe-label {
-    display: flex;
-    flex-direction: column;
 }
 
 .subscribe-input {
