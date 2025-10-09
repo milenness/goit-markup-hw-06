@@ -111,7 +111,6 @@ img {
 
 .contacts-adress {
     font-style: normal;
-    margin-left: auto;
 }
 
 .contacts {
@@ -1009,6 +1008,10 @@ img {
     .contacts-list {
         gap: 12px;
         margin: 0 auto;
+    }
+
+    .contacts-adress {
+        margin-left: auto;
     }
 
     .contacts {
