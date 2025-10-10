@@ -1065,7 +1065,7 @@ img {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 72px;
-        padding-left: 108px;
+        width: 584px;
     }
 
     .footer-logo {
@@ -1200,6 +1200,6 @@ img {
     .footer-cotainer {
         flex-wrap: nowrap;
         justify-content: space-between;
-        padding: 0;
+        width: 100%;
     }
 }
