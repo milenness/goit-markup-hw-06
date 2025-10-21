@@ -940,12 +940,13 @@ img {
         background-color: #404BBF;
         position: absolute;
         left: 0;
-        bottom: -1px;
+        bottom: -32px;
     }
 
     .logo {
         margin-right: 120px;
     }
+
 
     .menu-list {
         display: flex;
@@ -1100,7 +1101,7 @@ img {
     }
 
     .menu.active::after {
-        bottom: -4px;
+        bottom: -28px;
     }
 
     .title-section {
