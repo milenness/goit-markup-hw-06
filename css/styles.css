@@ -63,8 +63,6 @@ img {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 
 .menu-btn {
@@ -87,6 +85,8 @@ img {
     color: #4d5ae5;
     text-decoration: none;
     white-space: nowrap;
+
+    padding: 16px 0;
 }
 
 .logo-accent {
@@ -106,6 +106,7 @@ img {
 .menu-list {
     display: none;
 }
+
 
 .menu:hover,
 .menu:focus {
@@ -131,7 +132,7 @@ img {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -143,7 +144,7 @@ img {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x.jpg);
+            url(../images/bg-mob@2x.jpg);
     }
 }
 
@@ -940,11 +941,12 @@ img {
         background-color: #404BBF;
         position: absolute;
         left: 0;
-        bottom: -32px;
+        bottom: -2px;
     }
 
     .logo {
         margin-right: 120px;
+        padding: 24px 0;
     }
 
 
@@ -968,6 +970,8 @@ img {
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        padding: 24px 0;
     }
 
     .contacts-list {
@@ -997,6 +1001,20 @@ img {
 
     .title-section {
         padding: 112px 0;
+
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/bg-tab.jpg);
+    }
+
+    @media (min-resolution: 2x) {
+        .title-section {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/bg-tab@2x.jpg);
+        }
     }
 
     .title {
@@ -1074,11 +1092,6 @@ img {
         max-width: 1158px;
     }
 
-    .logo-nav {
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
-
     .logo {
         margin-right: 76px;
     }
@@ -1100,12 +1113,22 @@ img {
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .menu.active::after {
-        bottom: -28px;
-    }
-
     .title-section {
         padding: 188px 0;
+
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/bg-desk.jpg);
+    }
+
+    @media (min-resolution: 2x) {
+        .title-section {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/bg-desk@2x.jpg);
+        }
     }
 
     .title {
@@ -1173,6 +1196,19 @@ img {
 
     .footer-cotainer {
         flex-wrap: nowrap;
-        padding: 0 92px;
+        padding: 0;
+        gap: 0;
+    }
+
+    .logo-descr-conteiner {
+        margin-right: 120px;
+    }
+
+    .subscribe-container {
+        margin-left: auto;
+    }
+
+    .subscribe-form {
+        gap: 0;
     }
 }
